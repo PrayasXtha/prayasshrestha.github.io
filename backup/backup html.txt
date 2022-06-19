@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>Prayas Shrestha</title>
+    
+    <link rel="stylesheet" href="aos.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+
+
+  </head>  
+
+
+
+<body>
+  <div id="first_page">
+          <!-- desktop navigation bar-------------------------------------------------------------------------------->
+
+    <nav class="navigation">
+      <h1><a href="index.html" id="logo"> <\>PRAYAS</a></h1>  
+      <ul>
+          <li ><a href="#first_page" class="active">Home</a></li>
+          <li><a href="#second_page" > Portifolio</a></li>
+          <li><a href="#third_page" >Work</a></li>
+          <li ><a href="#fourth_page" class="contact">Contact</a></li>
+      </ul>  
+    </nav>
+              <!-- desktop navigation ends-------------------------------------------------------------------------------->
+
+      <!-- mobile navigation bar-------------------------------------------------------------------------------->
+      <div class="mobile-nav">
+        <a href="index.html" style="color: white; text-decoration: none;"><\>PRAYAS</a>
+        <span onclick="openNav()">&#9776;</span>
+        
+      </div>
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="#first_page" class="atv">Home</a>
+          <a href="#second_page">Portifolio</a>
+          <a href="#third_page">Work</a>
+          <a href="#fourth_page">Contact</a>
+        </div>
+      </div>
+          <!-- mobile navigation bar ends-------------------------------------------------------------------------------->
+
+      <!-- left- social bar  -------------------------------------------------------------------------------->
+
+    <div class="socials2" data-aos="fade-right">
+      <a class="fb" href="https://www.facebook.com/prayas.shrestha.98/">Facebook <i class="fab fa-facebook-f"  ></i></a></li> 
+      <a class="insta" href="https://www.instagram.com/iam_prayas/">Instagram<i class="fab fa-instagram" ></i></a></li>
+      <a class="yt"  href="https://www.youtube.com/channel/UCIYJulHsQZ6mnY4EsOgjIqw?view_as=subscriber">Youtube<i class="fab fa-youtube"></i></a></li>
+ 
+  </div>
+  <!-- left- social bar ends -------------------------------------------------------------------------------->
+
+  <!-- first page content-------------------------------------------------------------------------------->
+    
+  <div class="content-page1">
+
+      <div class="wrap">
+
+        
+        <div class="wrapper-image" > 
+      <img src="img/me.png" alt="" data-aos="fade-down"   data-aos-easing="linear"
+      data-aos-duration="500">
+    </div>
+      
+     <div class="skill">
+      <div class="wrapper-img" > 
+    <h1   data-aos="fade-up" data-aos-anchor-placement="center-bottom"  data-aos-duration="1000"><span>Hi there!</span> <br>My name is<span class="myname"  data-aos-duration="1000"> Prayas Shrestha</span> </h1>
+    <h4><i class="fas fa-user-graduate"></i>  Student, Grade 12  </h4>
+  </div>
+      <h2  data-aos="fade-left"
+      data-aos-anchor="#example-anchor"
+      data-aos-offset="500"
+      data-aos-duration="1000"><i class="fas fa-laptop-code"></i> Web Developer </h2> 
+      <h2 data-aos="fade-left"
+      data-aos-anchor="#example-anchor"
+      data-aos-offset="500"
+      data-aos-duration="1150"> <i class="far fa-window-restore"></i> Front-End Developer</h2>
+      <h2  data-aos="fade-left"
+      data-aos-anchor="#example-anchor"
+      data-aos-offset="500"
+      data-aos-duration="1350"><i class="fab fa-adobe"></i> Graphics Desiginer </h2>
+      <h2  data-aos="fade-left"
+      data-aos-anchor="#example-anchor"
+      data-aos-offset="500"
+      data-aos-duration="1550"> <i class="far fa-file-video"></i> Video Editor </h2>
+             
+          </div>
+
+    
+    
+
+
+  </div>
+</div>
+
+
+  <!-- first page content ends-------------------------------------------------------------------------------->
+
+  </div>
+  <div id="second_page"> 
+    <h1>My knowledge</h1>
+ <div class="content-page2" data-aos="fade-right"  data-aos-duration="1000">
+  
+     <div class="html"  data-aos="fade-right"
+     data-aos-duration="200">
+       <div class="pic">
+       <img src="img/html.png" alt="">
+      </div>
+       <div id="myProgress">
+        <div id="myBar">90%</div>
+      </div>
+     </div>
+     <div class="css"  data-aos="fade-right"
+     data-aos-duration="350">
+       <div class="pic">
+       <img src="img/css.png" alt="">
+      </div>
+       <div id="myProgress2">
+      <div id="myBar2">85%</div>
+    </div>
+     </div>
+     <div class="js"  data-aos="fade-right"
+     data-aos-duration="450">
+      <div class="pic">
+      <img src="img/js.png" alt="">
+     </div>
+      <div id="myProgress3">
+     <div id="myBar3">20%</div>
+   </div>
+    </div>
+     <div class="ps"  data-aos="fade-right"
+     data-aos-duration="550" >
+       <div class="pic">
+      <img src="img/ps.jpg" alt="">
+    </div>
+      <div id="myProgress4">
+     <div id="myBar4">80%</div>
+   </div>
+    </div>
+    
+    <div class="fl"  data-aos="fade-right" 
+    data-aos-duration="60">
+      <div class="pic">
+      <img src="img/fl.png" alt="">
+    </div>
+      <div id="myProgress5">
+     <div id="myBar5">85%</div>
+   </div>
+    </div>
+    
+     
+   </div>
+
+
+     
+  </div>
+  <div id="third_page">
+
+  </div>
+    
+  <div id="fourth_page">
+
+  </div>
+
+</body>
+<!--JAVASCRIPT ---------------------------->
+<script src="index.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+<script>
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+
+  </script>
+<script>
+ /* Open */
+function openNav() {
+  document.getElementById("myNav").style.height = "100%";
+}
+
+/* Close */
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
+}
+  button.onclick =  function() {
+  span.classList.toggle('hamburger-menu-button-close');
+};
+  // close hamburger menu after click a
+$( '.overlay-content a' ).on("click", function(){
+  $('#myNav').click();
+});
+
+  </script>
+  <script>
+    
+  </script>
+  
+</html>
